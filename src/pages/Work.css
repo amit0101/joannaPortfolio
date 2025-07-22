@@ -5,7 +5,7 @@
   display: flex;
   height: 100vh;
   overflow-x: hidden;
-  overflow-y: auto; /* Make the container scrollable, not just content */
+  overflow-y: scroll !important; /* Force scrollbar to always be visible */
   margin-top: 0; /* Remove the margin-top */
   margin-left: 0; /* Remove specific margin since it's now global */
   position: relative; /* so any absolutely positioned elements remain within this container */
@@ -13,27 +13,34 @@
   width: 100%; /* Take full width */
   scroll-behavior: smooth; /* Add smooth scrolling */
   
+  /* Force scrollbar visibility */
+  scrollbar-width: thin !important;
+  scrollbar-color: #c1c1c1 #f1f1f1 !important;
+  
   /* Custom scrollbar styling for webkit browsers (Chrome, Safari) */
 }
 
 .work-container::-webkit-scrollbar {
-  width: 8px;
+  width: 8px !important;
+  display: block !important;
 }
 
 .work-container::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #f1f1f1 !important;
   border-radius: 4px;
 }
 
 .work-container::-webkit-scrollbar-thumb {
-  background: #c1c1c1;
+  background: #c1c1c1 !important;
   border-radius: 4px;
 }
 
 .work-container::-webkit-scrollbar-thumb:hover {
-  background: #a8a8a8;
-  
-  /* Firefox scrollbar styling */
+  background: #a8a8a8 !important;
+}
+
+/* Firefox scrollbar styling */
+.work-container {
   scrollbar-width: thin;
   scrollbar-color: #c1c1c1 #f1f1f1;
 }
