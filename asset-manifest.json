@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/joannaPortfolio/static/css/main.fd7c50e0.css",
+    "main.js": "/joannaPortfolio/static/js/main.ebe9e426.js",
+    "static/js/488.e2ff00fd.chunk.js": "/joannaPortfolio/static/js/488.e2ff00fd.chunk.js",
+    "static/media/joanna-photo.png": "/joannaPortfolio/static/media/joanna-photo.c15a65d51e026cb78de7.png",
+    "static/media/use-case-specification.png": "/joannaPortfolio/static/media/use-case-specification.d40c498bf042ee789cc4.png",
+    "static/media/hifi-wireframes.png": "/joannaPortfolio/static/media/hifi-wireframes.e4cc1c58762d3c91b140.png",
+    "static/media/card-sorting.png": "/joannaPortfolio/static/media/card-sorting.3b12615046dc9e7b95a0.png",
+    "static/media/solution-ideation.png": "/joannaPortfolio/static/media/solution-ideation.6282a7042136d4d9ef48.png",
+    "static/media/lofi-wireframes.png": "/joannaPortfolio/static/media/lofi-wireframes.464bec35d1fa5ece4d28.png",
+    "index.html": "/joannaPortfolio/index.html",
+    "main.fd7c50e0.css.map": "/joannaPortfolio/static/css/main.fd7c50e0.css.map",
+    "main.ebe9e426.js.map": "/joannaPortfolio/static/js/main.ebe9e426.js.map",
+    "488.e2ff00fd.chunk.js.map": "/joannaPortfolio/static/js/488.e2ff00fd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd7c50e0.css",
+    "static/js/main.ebe9e426.js"
+  ]
+}
